@@ -24,16 +24,28 @@ To write a Python program to create a class `Student` with the private members `
 ---
 
 ### PROGRAM
-
 ```
+Reg.No: 212223090030
+Name: Vijayalakshmi M P
 
-
-
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.__age = age
+    def get_age(self):
+        return self.__age
+    def set_age(self, age):
+        self.__age=age
+    def get_name(self):
+        return self.__name
+stud = Student('Jessa', 14)
+print('Name:', stud.name, stud.get_age())
+stud.set_age(16)
+print('Name:', stud.name, stud.get_age())
 ```
 
 ### OUTPUT
-
+<img width="489" height="191" alt="image" src="https://github.com/user-attachments/assets/efed3703-4c90-4ea4-86e1-83b04f3fbf19" />
 
 ### RESULT
-
-
+Thus the python program to create a class Student with the private members name and age, and add getter and setter methods has been executed.
