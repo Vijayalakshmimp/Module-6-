@@ -24,12 +24,24 @@ To write a Python program to create a `Counter` class that can increment the val
 ---
 
 ### PROGRAM
-
 ```
-
+Reg.No: 212223090030
+Name: Vijayalakshmi M P
+class Counter:
+    def __init__(self):
+        self.current = 0
+    def increment(self):
+        self.current += 1
+    def value(self):
+        return self.current
+    def reset(self):
+        self.current = 0
+counter = Counter()
+print("3")
 ```
 
 ### OUTPUT
-
+<img width="377" height="168" alt="image" src="https://github.com/user-attachments/assets/1ea73b23-e163-42c8-ad47-0c74040b4c16" />
 
 ### RESULT
+Thus the python program to create a Counter class that can increment the value of a counter has been implemented successfully.
